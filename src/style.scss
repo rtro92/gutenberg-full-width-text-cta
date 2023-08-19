@@ -1,0 +1,41 @@
+.sc-fw-text-cta-container {
+	max-width: none!important;
+  	width: 100%;  
+  	padding: 2rem;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;  	
+  	.sc-fw-text-line {
+		font-size: 3rem;
+		color: #FFF;
+		line-height: 1.25;
+		margin-bottom: 2rem;
+	}
+	.sc-fw-text-cta-btn {
+		display: flex;
+		a {
+			background-color: rgba(0,0,0,.8);
+			cursor: pointer;
+			color: #FFF;
+			padding: 1rem;
+			text-decoration: none;
+			&:hover {
+				background-color: rgba(0,0,0,1);
+			}
+		}
+	}
+}
+
+@media(min-width: 768px) {
+	.sc-fw-text-cta-container {
+		padding: 4rem;
+		.sc-fw-text-line {
+			font-size: 4rem;
+			margin-bottom: 6rem;
+		}
+	}
+}
+
+
+

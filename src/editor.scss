@@ -1,0 +1,33 @@
+.wp-block[data-title="Full Width - Text With CTA"] {
+	max-width: 100%!important;
+	flex-direction: column;
+	.sc-fw-text-cta-root {
+	  max-width: none!important;
+	  width: 100%;  
+	  padding: 4rem;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;	    
+	  .sc-fw-text-line {
+			font-size: 3rem;
+			color: #FFF;
+			line-height: 1.25;
+			margin-bottom: 2rem;
+		}
+		.sc-fw-text-cta-btn {
+			background-color: rgba(0,0,0,.8);
+			cursor: pointer;
+			color: #FFF;
+			padding: 1rem;
+			&:hover {
+				background-color: rgba(0,0,0,1);
+			}
+		}
+	}
+}
+
+@media(min-width: 768px) {
+	.sc-fw-text-cta-container {
+		font-size: 4rem;
+	}
+}
